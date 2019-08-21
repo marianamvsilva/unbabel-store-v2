@@ -6,6 +6,8 @@
   background-color: #3843d0;
   padding: 20px;
   position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
 h1 {
