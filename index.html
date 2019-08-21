@@ -30,6 +30,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
     <div class="header-section">
       <div class="row justify-content-between align-items-center">
@@ -170,9 +171,95 @@
         </div>
       </div>
     </div>
+    <h2 class="title-request">Request here</h2>
+    <div class="container">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputName">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="Name"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputTeam">Team</label>
+            <select id="inputTeam" class="form-control">
+              <option selected>Choose...</option>
+              <option>Marketing</option>
+              <option>Sales</option>
+              <option>People Ops</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-3">
+            <label for="inputEvent">Event</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="eg. Landing Jobs, Lisbon"
+            />
+          </div>
+          <div class="form-group col-md-3">
+            <label for="inputDate">Date</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputDate"
+              placeholder="DD/MM/YYYY"
+            />
+          </div>
+          something
+          <div class="form-group col-md-3">
+            <label for="inputCity">City</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputCity"
+              placeholder="Where is it taking place?"
+            />
+          </div>
+          <div class="form-group col-md-3">
+            <label for="inputTeam">Objective</label>
+            <select id="inputTeam" class="form-control">
+              <option selected>Choose...</option>
+              <option>Lead Generation</option>
+              <option>Hiring</option>
+              <option>Newbies</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputSwag">Swag</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputSwag"
+              placeholder="Swag"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputQuantities">Quantities</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputQuantities"
+              placeholder="Insert approx quantities you need"
+            />
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit request</button>
+      </form>
+    </div>
     <h4>
-      Contact swag@unbabel.com for extraordinary requests.
+      Contact <a href="http://www.google.com">swag@unbabel.com</a> for
+      extraordinary requests.
     </h4>
-    <script src="weathify.js"></script>
+    <script src="https://spreadsheets.google.com/feeds/cells/2PACX-1vRGDnjtVTJVh_ZG3G1ZXtNgJDikXWu_Q36gdCRXNuy2LCJnYgjlhQxXypSKlpA1MPzG98ztB6XfccvO/public/values?alt=json-in-script&callback=sheetLoaded"></script>
   </body>
 </html>
