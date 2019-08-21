@@ -66,3 +66,26 @@ h4 {
 .content-goodies {
   padding-bottom: 50px;
 }
+
+.card-img-top {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn-third {
+  background-color: white;
+  border-color: #3843d0;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #3843d0;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.btn-third:hover {
+  background-color: #3843d0;
+  color: white;
+}
