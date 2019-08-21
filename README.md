@@ -1,1 +1,1 @@
-# unbabel-store-v2
+# unbabel-store

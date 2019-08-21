@@ -1,0 +1,68 @@
+.introduction {
+  background-color: #3843d0;
+}
+
+.header-section {
+  background-color: #3843d0;
+  padding: 20px;
+  position: fixed;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100px;
+  color: white;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #3843d0;
+  font-size: 50px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.content-section {
+  margin-bottom: 40px 0;
+  padding-top: 150px;
+}
+
+.content-section-goodies {
+  margin-bottom: 50px 0;
+  padding-top: 10px;
+}
+
+.btn-primary {
+  background-color: #3843d0;
+  border-color: white;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #3843d0;
+}
+
+.content-goodies {
+  padding-bottom: 50px;
+}
